@@ -28,7 +28,7 @@ app.post('/send-email', upload.single('file'), async (req, res) => {
     from: 'renzorevq@gmail.com',
     to,
     subject: 'Matematica Computacional - Comprension de datos (Huffman)',
-    text: 'Ingrese a google.com.pe y cargue el archivo adjunto, para descomprimirlo',
+    text: 'Ingrese a https://huffman-front.onrender.com y cargue el archivo adjunto, para descomprimirlo',
     attachments: [
       {
         filename: file.originalname,
